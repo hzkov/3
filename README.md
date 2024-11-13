@@ -1,3 +1,3 @@
 # 3
 ещё одна (возможно неудачная) попытка что-то создать
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+![1.png](https://github.com//hzkov/3/blob/main/1.jpg)
