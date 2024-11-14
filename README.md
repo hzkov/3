@@ -14,6 +14,7 @@
 
 • Скачиваем файл репозитория
 [2.jpg](https://github.com/hzkov/3/blob/main/Images/2.jpg)
+
 3.sudo yum install docker-ce docker-ce-cli containerd.io
 
 • Устанавливаем docker
