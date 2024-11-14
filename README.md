@@ -100,7 +100,7 @@
 
 • Что бы сохранить что-то в этом документе нажимаем Esc пишем :wq! В этом текставом редакторе мы должны поставить node-exporter после services
 
-![19.jpg](https://github.com/hzkov/3/blob/main/Images/19.jpg)
+![19.jpg](https://github.com/hzkov/3/blob/Images/19.jpg)
 
 20. sudo vi prometheus.yaml
  
@@ -142,4 +142,4 @@ Find and import dashboards for common applications at grafana.com/dashboards: 18
 
 Select Prometheus ждем кнопку "Import"
 
-![grafana.jpg](https://github.com/hzkov/3/blob/main/Images/grafana.jpg)
+![grafana.jpg](https://github.com/hzkov/3/blob/Images/grafana.jpg)
