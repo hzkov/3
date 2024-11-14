@@ -50,7 +50,7 @@
 
 • Проверка установленной версии Docker Compose.
 
-
+![7.jpg](https://github.com/hzkov/3/blob/main/Images/7.jpg)
 
 • Можно скачать git прямо из командной строки прописав Y
 
