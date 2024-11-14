@@ -156,6 +156,8 @@ Select Prometheus ждем кнопку "Import"
 
 • команда sudo открывает файл docker-compose.yaml в редакторе vi с правами суперпользователя.
 
+![victoria1.jpg](https://github.com/hzkov/3/blob/main/Images/victoria1.png)
+
 В самом текстовом редакторе после prometheus вставляем
 
 
