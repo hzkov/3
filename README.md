@@ -143,3 +143,40 @@ Find and import dashboards for common applications at grafana.com/dashboards: 18
 Select Prometheus ждем кнопку "Import"
 
 ![grafana.jpg](https://github.com/hzkov/3/blob/Images/grafana.jpg)
+
+# Grafana
+
+1. Для начала изменим docker-compose.yaml
+
+cd grafana_stack_for_docker
+• команда cd grafana_stack_for_docker изменяет текущий рабочий каталог на каталог grafana_stack_for_docker.
+
+2. sudo vi docker-compose.yaml
+
+• команда sudo открывает файл docker-compose.yaml в редакторе vi с правами суперпользователя.
+
+В самом текстовом редакторе после prometheus вставляем
+
+
+
+Заходим в connection там где мы писали http//:prometheus:9090 пишем http:victoriametrics:9090 И заменяем имя из "Prometheus-2" в "Vika" нажимаем на dashboards add visualition выбираем "Vika" снизу меняем на "code" Переходим в терминал и пишем
+
+3. echo -e "# TYPE OILCOINT_metric1 gauge\nOILCOINT_metric1 0" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus  
+
+• команда отправляет бинарные данные (например, метрики в формате Prometheus) на локальный сервер, который слушает на порту 8428.
+
+4. curl -G 'http://localhost:8428/api/v1/query' --data-urlencode 'query=OILCOINT_metric1'
+
+• команда делает запрос к API для получения данных по метрике OILCOINT_metric1
+
+• команда выводит текст, который может быть использован для определения метрики в формате, совместимом с Prometheus
+
+• команда выводит информацию о типе и значении этой метрики в формате, который может быть использован системой мониторинга Prometheus.
+
+Значение 0 меняем на любое другое
+
+Копируем переменную OILCOINT_metric1 и вставляем в query
+
+Нажимаем run
+
+Копируем переменную OILCOINT_metric1 и вставляем в code
