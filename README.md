@@ -13,8 +13,25 @@
 2. sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo
 
 • Скачиваем файл репозитория
+
 [3.jpg](https://github.com/hzkov/3/blob/main/Images/3.jpg)
 
 3.sudo yum install docker-ce docker-ce-cli containerd.io
 
 • Устанавливаем docker
+
+
+
+4.sudo systemctl enable docker --now
+
+• Запускаем его и разрешаем автозапуск
+
+5.sudo yum install curl
+
+• Для этого сначала убедимся в наличие пакета curl
+
+COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4)
+
+• Объявление переменной COMVER, полученной в результате curl запроса, хранящей в себе номер последней версии Docker Compose
+
+[4.jpg](https://github.com/hzkov/3/blob/main/Images/4.jpg)
