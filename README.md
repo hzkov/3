@@ -20,7 +20,7 @@
 
 • Устанавливаем docker
 
-![Alt 6.png](https://github.com//hzkov/3/blob/main/6.jpg)
+![6.jpg](https://github.com/hzkov/3/blob/main/Images/6.jpg)
 
 4. sudo systemctl enable docker --now
 
@@ -39,7 +39,9 @@
 7. sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
 
 • Теперь скачиваем скрипт docker-compose последней версии, используя объявленную ранее переменную и помещаем его в каталог /usr/bin
-![Alt 5](https://github.com//hzkov/3/blob/main/5.jpg)
+
+![4.jpg](https://github.com/hzkov/3/blob/main/Images/5.jpg)
+
 8. sudo chmod +x /usr/bin/docker-compose
 
 • Предоставление прав на выполнение файла docker-compose.
