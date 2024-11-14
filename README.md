@@ -179,6 +179,7 @@ Select Prometheus ждем кнопку "Import"
 ![vm1.jpg](https://github.com/hzkov/3/blob/main/Images/1vm.png)
 
 ![vm2.jpg](https://github.com/hzkov/3/blob/main/Images/vm2.png)
+
 Значение 0 меняем на любое другое
 
 Копируем переменную OILCOINT_metric1 и вставляем в query
@@ -186,3 +187,5 @@ Select Prometheus ждем кнопку "Import"
 Нажимаем run
 
 Копируем переменную OILCOINT_metric1 и вставляем в code
+
+![last.jpg](https://github.com/hzkov/3/blob/main/Images/last.png)
