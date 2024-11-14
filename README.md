@@ -142,7 +142,7 @@ Find and import dashboards for common applications at grafana.com/dashboards: 18
 
 Select Prometheus ждем кнопку "Import"
 
-![grafana.jpg](https://github.com/hzkov/3/blob/Images/grafana.jpg)
+![grafana.jpg](https://github.com/hzkov/3/blob/main/Images/grafana.png)
 
 # VictoriaMetrics
 
