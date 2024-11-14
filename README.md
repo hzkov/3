@@ -160,7 +160,7 @@ Select Prometheus ждем кнопку "Import"
 
 В самом текстовом редакторе после prometheus вставляем
 
-
+![victoria2.jpg](https://github.com/hzkov/3/blob/main/Images/victoria2.png)
 
 Заходим в connection там где мы писали http//:prometheus:9090 пишем http:victoriametrics:9090 И заменяем имя из "Prometheus-2" в "Vika" нажимаем на dashboards add visualition выбираем "Vika" снизу меняем на "code" Переходим в терминал и пишем
 
