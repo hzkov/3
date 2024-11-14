@@ -100,7 +100,7 @@
 
 • Что бы сохранить что-то в этом документе нажимаем Esc пишем :wq! В этом текставом редакторе мы должны поставить node-exporter после services
 
-![в 19.jpg](https://github.com/hzkov/3/blob/main/Images/в 19.jpg)
+![19.jpg](https://github.com/hzkov/3/blob/main/Images/19.jpg)
 20. sudo vi prometheus.yaml
  
 • команда открывает файл prometheus.yaml в текстовом редакторе vi с правами суперпользователя.
