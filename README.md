@@ -14,7 +14,7 @@
 
 • Скачиваем файл репозитория
 
-[3.jpg](https://github.com/hzkov/3/blob/main/Images/3.jpg)
+![3.jpg](https://github.com/hzkov/3/blob/main/Images/3.jpg)
 
 3. sudo yum install docker-ce docker-ce-cli containerd.io
 
@@ -34,12 +34,12 @@
 
 • Объявление переменной COMVER, полученной в результате curl запроса, хранящей в себе номер последней версии Docker Compose
 
-[4.jpg](https://github.com/hzkov/3/blob/main/Images/4.jpg)
+![4.jpg](https://github.com/hzkov/3/blob/main/Images/4.jpg)
 
 7. sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
 
 • Теперь скачиваем скрипт docker-compose последней версии, используя объявленную ранее переменную и помещаем его в каталог /usr/bin
-
+![Alt 5](https://github.com//hzkov/3/blob/main/5.jpg)
 8. sudo chmod +x /usr/bin/docker-compose
 
 • Предоставление прав на выполнение файла docker-compose.
