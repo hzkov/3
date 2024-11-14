@@ -144,11 +144,12 @@ Select Prometheus ждем кнопку "Import"
 
 ![grafana.jpg](https://github.com/hzkov/3/blob/Images/grafana.jpg)
 
-# Grafana
+# VictoriaMetrics
 
-1. Для начала изменим docker-compose.yaml
+Для начала изменим docker-compose.yaml
 
-cd grafana_stack_for_docker
+1. cd grafana_stack_for_docker
+
 • команда cd grafana_stack_for_docker изменяет текущий рабочий каталог на каталог grafana_stack_for_docker.
 
 2. sudo vi docker-compose.yaml
