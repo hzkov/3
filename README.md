@@ -176,6 +176,8 @@ Select Prometheus ждем кнопку "Import"
 
 • команда выводит информацию о типе и значении этой метрики в формате, который может быть использован системой мониторинга Prometheus.
 
+![vm1.jpg](https://github.com/hzkov/3/blob/main/Images/1vm.png)
+
 Значение 0 меняем на любое другое
 
 Копируем переменную OILCOINT_metric1 и вставляем в query
