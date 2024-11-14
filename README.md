@@ -11,6 +11,7 @@
 ![Alt 1.png](https://github.com//hzkov/3/blob/main/1.jpg)
 
 2. sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo
+
 • Скачиваем файл репозитория
 
 
