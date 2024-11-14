@@ -20,7 +20,7 @@
 
 • Устанавливаем docker
 
-
+![Alt 6.png](https://github.com//hzkov/3/blob/main/6.jpg)
 
 4. sudo systemctl enable docker --now
 
